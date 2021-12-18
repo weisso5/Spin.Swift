@@ -1,4 +1,4 @@
-// swift-tools-version:5.2
+// swift-tools-version:5.5
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -27,7 +27,7 @@ let package = Package(
             targets: ["SpinRxSwift"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ReactiveCocoa/ReactiveSwift", from: "6.3.0"),
+        .package(url: "https://github.com/ReactiveCocoa/ReactiveSwift", from: "6.7.0"),
         .package(url: "https://github.com/ReactiveX/RxSwift", from: "5.1.1"),
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
